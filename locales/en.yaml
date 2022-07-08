@@ -1,0 +1,6 @@
+app:
+    authLoginPageTitle: This is Auth Login Page
+    authMessageAboutAuth: To "LOGIN" add to local storage variable is-authenticated with value true (localStorage.setItem("is-authenticated", true))
+    homePageTitle: This is a Home Page Title
+    errors:
+        testErrorMessage: This is the test error message

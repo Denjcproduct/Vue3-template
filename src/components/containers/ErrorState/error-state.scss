@@ -1,0 +1,11 @@
+.error-state {
+  width: 100%;
+  height: 100%;
+
+  &_message {
+    @include typography-regular;
+
+    color: $base-black;
+    text-align: center;
+  }
+}

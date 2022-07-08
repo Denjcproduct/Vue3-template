@@ -1,0 +1,11 @@
+.auth-login-page {
+  max-width: 500px;
+  margin-top: 0 auto;
+  display: flex;
+
+  &_title {
+    @include typography-h2;
+
+    color: $base-black;
+  }
+}

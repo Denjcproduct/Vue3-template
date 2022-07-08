@@ -1,0 +1,10 @@
+.error-layout {
+  width: 100vw;
+  height: 100vh;
+
+  &_title {
+    @include typography-h1;
+
+    color: $base-black;
+  }
+}

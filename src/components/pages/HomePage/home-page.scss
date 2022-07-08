@@ -1,0 +1,10 @@
+.home-page {
+  max-width: 500px;
+  margin-top: 0 auto;
+
+  &_title {
+    @include typography-h2;
+
+    color: $base-black;
+  }
+}

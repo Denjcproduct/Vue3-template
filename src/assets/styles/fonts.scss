@@ -1,0 +1,36 @@
+$filepath: '@/assets/fonts/';
+
+@font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: normal;
+  src: url($filepath + 'Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Roboto;
+  font-style: normal;
+  src: url($filepath + 'Roboto-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Roboto;
+  font-style: italic;
+  src: url($filepath + 'Roboto-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Roboto;
+  font-style: normal;
+  src: url($filepath + 'Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-weight: 900;
+  font-family: Roboto;
+  font-style: normal;
+  src: url($filepath + 'Roboto-Black.ttf') format('truetype');
+}

@@ -1,0 +1,61 @@
+$font-family-roboto: 'Roboto', sans-serif;
+
+@mixin typography-creator($font-family, $font-size, $font-weight, $line-height, $font-style: normal) {
+  font-weight: $font-weight;
+  font-size: $font-size;
+  font-family: $font-family;
+  font-style: $font-style;
+  line-height: $line-height;
+}
+
+@mixin typography-black {
+  @include typography-creator($font-family-roboto, 280px, 900, 1);
+}
+
+@mixin typography-h1 {
+  @include typography-creator($font-family-roboto, 38px, 500, 1.21);
+}
+
+@mixin typography-h2 {
+  @include typography-creator($font-family-roboto, 30px, 500, 1.33);
+}
+
+@mixin typography-h3 {
+  @include typography-creator($font-family-roboto, 24px, 500, 1.33);
+}
+
+@mixin typography-h4 {
+  @include typography-creator($font-family-roboto, 20px, 500, 1.4);
+}
+
+@mixin typography-h5 {
+  @include typography-creator($font-family-roboto, 16px, 500, 1.5);
+}
+
+@mixin typography-regular {
+  @include typography-creator($font-family-roboto, 14px, 400, 1.57);
+}
+
+@mixin typography-regular-italic {
+  @include typography-creator($font-family-roboto, 14px, 400, 1.57, italic);
+}
+
+@mixin typography-regular-medium {
+  @include typography-creator($font-family-roboto, 14px, 500, 1.57);
+}
+
+@mixin typography-regular-strong {
+  @include typography-creator($font-family-roboto, 14px, 700, 1.57);
+}
+
+@mixin typography-small {
+  @include typography-creator($font-family-roboto, 12px, 400, 1.66);
+}
+
+@mixin typography-medium {
+  @include typography-creator($font-family-roboto, 16px, 400, 1.5);
+}
+
+body {
+  font-family: $font-family-roboto;
+}
